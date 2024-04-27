@@ -1,0 +1,35 @@
+section {
+  padding-top: 10px;
+}
+
+.divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-top: solid rgba(255, 255, 255, 0.3);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(255, 255, 255, 0);
+}
+
+.kitchen-cards {
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, 250px);
+}
+
+.kitchen-card {
+  width: 200px;
+  height: 125px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s;
+  border-radius: 10px;
+  background-size: 200px, 125px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.kitchen-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/*# sourceMappingURL=index.css.map */

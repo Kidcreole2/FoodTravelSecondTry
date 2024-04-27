@@ -1,0 +1,16 @@
+{
+  "name": "foodtravel",
+  "version": "1.0.0",
+  "description": "This is a pet site for delivery food",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./src/sass/:./src/css/",
+    "tcs": "npx tsc"
+  },
+  "author": "",
+  "dependencies": {
+    "sass": "^1.75.0",
+    "typescript": "^5.4.5"
+  }
+}
