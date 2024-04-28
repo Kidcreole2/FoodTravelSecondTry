@@ -1,0 +1,7 @@
+!src/
+*.map
+src/js
+src/assets/
+node_modules/
+.*
+!.gitignore
