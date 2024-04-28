@@ -11,25 +11,34 @@ section {
   box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1), inset 0 0.125em 0.5em rgba(255, 255, 255, 0);
 }
 
-.kitchen-cards {
+.section-cards {
   width: 100%;
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(auto-fit, 250px);
 }
 
-.kitchen-card {
+.section-card {
   width: 200px;
   height: 125px;
+  display: grid;
+  grid-template-rows: 3fr 1fr;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   transition: box-shadow 0.3s;
   border-radius: 10px;
-  background-size: 200px, 125px;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
-.kitchen-card:hover {
+.section-card:hover {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.section-card-text {
+  padding-left: 10px;
+  font-weight: 700;
+  color: white;
+  -webkit-text-stroke: 1px #000;
 }
 
 /*# sourceMappingURL=index.css.map */

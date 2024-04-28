@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 <head>
     <title></title>
     <meta charset="UTF-8"/>
@@ -12,19 +12,19 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
         crossorigin="anonymous"
     />
+
+    <title>FoodTravel</title>
 </head>
 <body>
-<header>
-    <header class="d-flex justify-content-center py-3">
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a href="#" class="nav-link active" aria-current="page">Всё</a>
-            </li>
-            <li class="nav-item"><a href="#" class="nav-link">Рестораны</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Блюда</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Ты</a></li>
-        </ul>
-    </header>
+<header class="d-flex justify-content-center py-3">
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">Всё</a>
+        </li>
+        <li class="nav-item"><a href="kitchens/" class="nav-link">Рестораны</a></li>
+        <li class="nav-item"><a href="foods/" class="nav-link">Блюда</a></li>
+        <li class="nav-item"><a href="profile/" class="nav-link">Ты</a></li>
+    </ul>
 </header>
 <main>
     <div class="divider"></div>
@@ -36,24 +36,24 @@
             <div
                 class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center"
             >
-                <div class="kitchen-cards">
+                <div class="section-cards">
                     <div
-                        class="kitchen-card"
+                        class="section-card"
                         style="background-image: url('/src/assets/Burger-King-Logo-1999.jpg');"
                     >
                     </div>
                     <div
-                        class="kitchen-card"
+                        class="section-card"
                         style="background-image: url('/src/assets/Burger-King-Logo-1999.jpg');"
                     >
                     </div>
                     <div
-                        class="kitchen-card"
+                        class="section-card"
                         style="background-image: url('/src/assets/Burger-King-Logo-1999.jpg');"
                     >
                     </div>
                     <div
-                        class="kitchen-card"
+                        class="section-card"
                         style="background-image: url('/src/assets/Burger-King-Logo-1999.jpg');"
                     >
                     </div>
@@ -62,6 +62,41 @@
         </div>
     </section>
     <div class="divider"></div>
+    <section>
+        <div class="container">
+            <h2 class="">Что заказать
+            </h2>
+
+            <div
+                class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center"
+            >
+                <div class="section-cards">
+                    <div
+                        class="section-card"
+                        style="background-image: url('/src/assets/chiz_burger.jpg');"
+                    >
+                        <div></div>
+                        <h4 class="section-card-text">Чизбургер</h4>
+                    </div>
+                    <div
+                        class="section-card"
+                        style="background-image: url('/src/assets/chiz_burger.jpg');"
+                    >
+                    </div>
+                    <div
+                        class="section-card"
+                        style="background-image: url('/src/assets/chiz_burger.jpg');"
+                    >
+                    </div>
+                    <div
+                        class="section-card"
+                        style="background-image: url('/src/assets/chiz_burger.jpg');"
+                    >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 <footer></footer>
 
